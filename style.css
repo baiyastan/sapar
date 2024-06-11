@@ -1,0 +1,47 @@
+.header {
+    width: 1200px;
+    height: 60px;
+    background-color: black;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: aliceblue;
+}
+
+.user {
+    display: flex;
+    color: aliceblue;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.user img {
+    width: 30px;
+    height: 30px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
